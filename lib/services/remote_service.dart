@@ -7,7 +7,7 @@ import 'package:http/http.dart' as http;
 
 class RemoteServices {
   static var client = http.Client();
-  static const baseUrl = "http://0d8a3402d779.ap.ngrok.io";
+  static const baseUrl = "http://d299-180-251-182-234.ngrok.io";
 
   static Future<List<Voting>> fetchAvailableVoting() async {
     var apiToken = await getStringFromSF('api_token');

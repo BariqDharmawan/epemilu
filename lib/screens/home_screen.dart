@@ -42,7 +42,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           bottom: 20,
                         ),
                         child: Text(
-                          "Available Voting",
+                          "Daftar Pemilu",
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
